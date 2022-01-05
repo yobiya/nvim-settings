@@ -1,3 +1,9 @@
+
+set number
+set expandtab
+set shiftwidth=4
+
+
 " ハイライトを消す
 nnoremap <ESC><ESC> :nohlsearch<CR>
 
@@ -13,3 +19,4 @@ noremap <C-k> *
 noremap! <C-k> *
 
 :lua require('plugins')
+
