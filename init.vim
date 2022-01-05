@@ -11,3 +11,5 @@ noremap <C-l> $
 " アスタリスクを入力
 noremap <C-k> *
 noremap! <C-k> *
+
+:lua require('plugins')
