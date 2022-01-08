@@ -18,6 +18,11 @@ noremap <C-l> $
 noremap <C-k> *
 noremap! <C-k> *
 
+" Fernを呼び出す
+noremap <C-y> :Fern .<CR>
+noremap <C-Y> :Fern . -reveal=%<CR>
+
+" プラグインの読み込み
 :lua require('plugins')
 
 " easy-motion
@@ -26,7 +31,6 @@ map <Leader> <Plug>(easy-motion-prefix)
 
 " showmarks
 aug au-showmarks
-
 au!
 au VimEnter * DoShowMarks!
 aug end
