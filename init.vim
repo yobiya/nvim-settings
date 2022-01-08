@@ -23,3 +23,11 @@ noremap! <C-k> *
 " easy-motion
 let g:EasyMotion_leader_key = '<Space>'
 map <Leader> <Plug>(easy-motion-prefix)
+
+" showmarks
+aug au-showmarks
+
+au!
+au VimEnter * DoShowMarks!
+aug end
+
