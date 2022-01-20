@@ -6,4 +6,6 @@ return require('packer').startup(function()
   use 'easymotion/vim-easymotion'
   use 'jacquesbh/vim-showmarks'
   use 'lambdalisue/fern.vim'
+  use 'christianchiarulli/nvcode-color-schemes.vim'
+  use 'nvim-treesitter/nvim-treesitter'
 end)
