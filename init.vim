@@ -2,7 +2,7 @@
 set number
 set expandtab
 set shiftwidth=4
-
+set nowrap
 
 " ハイライトを消す
 nnoremap <ESC><ESC> :nohlsearch<CR>
