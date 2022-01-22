@@ -11,7 +11,7 @@ nnoremap <ESC><ESC> :nohlsearch<CR>
 noremap <C-j> :
 
 " 行頭・行末へ移動する
-noremap <C-h> 0
+noremap <C-h> ^
 noremap <C-l> $
 
 " アスタリスクを入力
@@ -19,8 +19,7 @@ noremap <C-k> *
 noremap! <C-k> *
 
 " Fernを呼び出す
-noremap <C-y> :Fern .<CR>
-noremap <C-Y> :Fern . -reveal=%<CR>
+noremap <C-y> :Fern . -reveal=%<CR>
 
 " fzf
 noremap gm :Marks<CR>
