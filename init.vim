@@ -60,3 +60,16 @@ if (has("termguicolors"))
   set termguicolors
   hi LineNr ctermbg=NONE guibg=NONE
 endif
+
+" coc
+let g:coc_global_extensions = ['coc-flutter']
+
+nmap gd <Plug>(coc-definition)
+xmap if <Plug>(coc-funcobj-i)
+omap if <Plug>(coc-funcobj-i)
+xmap af <Plug>(coc-funcobj-a)
+omap af <Plug>(coc-funcobj-a)
+xmap ic <Plug>(coc-classobj-i)
+omap ic <Plug>(coc-classobj-i)
+xmap ac <Plug>(coc-classobj-a)
+omap ac <Plug>(coc-classobj-a)

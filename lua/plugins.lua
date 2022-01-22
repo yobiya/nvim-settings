@@ -10,4 +10,5 @@ return require('packer').startup(function()
   use 'nvim-treesitter/nvim-treesitter'
   use 'junegunn/fzf'
   use 'junegunn/fzf.vim'
+  use 'neoclide/coc.nvim'
 end)
