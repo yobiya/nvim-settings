@@ -22,6 +22,11 @@ noremap! <C-k> *
 noremap <C-y> :Fern .<CR>
 noremap <C-Y> :Fern . -reveal=%<CR>
 
+" fzf
+noremap gm :Marks<CR>
+noremap gf :Files<CR>
+noremap gb :Buffers<CR>
+
 " プラグインの読み込み
 :lua require('plugins')
 
