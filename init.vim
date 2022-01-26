@@ -73,3 +73,8 @@ xmap ic <Plug>(coc-classobj-i)
 omap ic <Plug>(coc-classobj-i)
 xmap ac <Plug>(coc-classobj-a)
 omap ac <Plug>(coc-classobj-a)
+
+" fzf
+
+" プレビューウィンドウを無効にする
+let g:fzf_preview_window = []
