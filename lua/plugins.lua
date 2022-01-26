@@ -11,6 +11,4 @@ return require('packer').startup(function()
   use 'junegunn/fzf'
   use 'junegunn/fzf.vim'
   use 'neoclide/coc.nvim'
-  use 'clangd/coc-clangd'
-  use 'iamcco/coc-flutter'
 end)

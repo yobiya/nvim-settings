@@ -62,7 +62,7 @@ if (has("termguicolors"))
 endif
 
 " coc
-let g:coc_global_extensions = ['coc-flutter']
+let g:coc_global_extensions = ['coc-flutter', 'coc-clangd']
 
 nmap gd <Plug>(coc-definition)
 xmap if <Plug>(coc-funcobj-i)
