@@ -43,9 +43,11 @@ aug end
 " treesitter
 lua << EOF
   require'nvim-treesitter.configs'.setup {
+    ignore_install = { "beancount", "fortran", "zig" },
     ensure_installed = "all",
     highlight = {
       enable = true,
+      disable = { "beancount", "fortran", "zig" },
     },
   }
 EOF
