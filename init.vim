@@ -67,6 +67,7 @@ endif
 let g:coc_global_extensions = ['coc-flutter', 'coc-clangd']
 
 nmap gd <Plug>(coc-definition)
+nmap <F2> <Plug>(coc-rename)
 xmap if <Plug>(coc-funcobj-i)
 omap if <Plug>(coc-funcobj-i)
 xmap af <Plug>(coc-funcobj-a)
