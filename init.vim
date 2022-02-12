@@ -19,6 +19,9 @@ noremap <C-l> $
 noremap <C-k> *
 noremap! <C-k> *
 
+" 画面を再描画する
+noremap gr :redraw<CR>
+
 " Fernを呼び出す
 noremap <C-y> :Fern . -reveal=%<CR>
 
