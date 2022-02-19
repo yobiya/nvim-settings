@@ -67,7 +67,7 @@ if (has("termguicolors"))
 endif
 
 " coc
-let g:coc_global_extensions = ['coc-flutter', 'coc-clangd']
+let g:coc_global_extensions = ['coc-flutter', 'coc-clangd', 'coc-omnisharp']
 
 nmap gd <Plug>(coc-definition)
 nmap <F2> <Plug>(coc-rename)
