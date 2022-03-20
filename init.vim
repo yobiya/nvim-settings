@@ -85,3 +85,11 @@ omap ac <Plug>(coc-classobj-a)
 
 " プレビューウィンドウを無効にする
 let g:fzf_preview_window = []
+
+aug au-insert
+au!
+  let zenhanPath = substitute($EXTERNAL_TOOLS . '\zenhan.exe 0', '\', '/', 'g')
+  au InsertLeave * :call system(zenhanPath)
+  au CmdlineLeave * :call system(zenhanPath)
+aug end
+
