@@ -12,4 +12,5 @@ return require('packer').startup(function()
   use 'junegunn/fzf.vim'
   use 'neoclide/coc.nvim'
   use 'yobiya/vim-register-watch'
+  use 'yobiya/vim-f-next'
 end)
