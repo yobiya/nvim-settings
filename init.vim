@@ -6,6 +6,10 @@ set tabstop=4
 set nowrap
 set ignorecase smartcase
 
+" マルチバイト文字入力の安定化
+set notimeout
+set nottimeout
+
 " ハイライトを消す
 nnoremap <ESC><ESC> :nohlsearch<CR>
 
