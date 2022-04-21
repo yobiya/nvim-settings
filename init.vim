@@ -31,6 +31,11 @@ noremap gm :Marks<CR>
 noremap gf :Files<CR>
 noremap gb :Buffers<CR>
 
+" f-next
+nmap s :call FNext_n_f()<CR>
+vmap s :call FNext_v_f()<CR>
+omap s :call FNext_o_f()<CR>
+
 " プラグインの読み込み
 :lua require('plugins')
 
