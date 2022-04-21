@@ -6,10 +6,6 @@ set tabstop=4
 set nowrap
 set ignorecase smartcase
 
-" マルチバイト文字入力の安定化
-set notimeout
-set nottimeout
-
 " ハイライトを消す
 nnoremap <ESC><ESC> :nohlsearch<CR>
 
@@ -94,6 +90,8 @@ aug au-insert
 au!
   let zenhanPath = substitute($EXTERNAL_TOOLS . '\zenhan.exe 0', '\', '/', 'g')
   au InsertLeave * :call system(zenhanPath)
-  au CmdlineLeave * :call system(zenhanPath)
+
+  " インサートモードの日本語入力の最中にアルファベット入力に切り替わってしまう場合があるので CmdlineLeave には設定しない
+" au CmdlineLeave * :call system(zenhanPath)
 aug end
 
