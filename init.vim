@@ -61,6 +61,9 @@ lua << EOF
   }
 EOF
 
+" fern
+let g:fern#default_exclude='meta'
+
 let g:nvcode_termcolors=256
 
 syntax on
