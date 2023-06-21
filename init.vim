@@ -23,6 +23,99 @@ noremap! <C-k> *
 " 画面を再描画する
 noremap gr :redraw<CR>
 
+" レジスタを選択
+noremap <C-e> "
+
+" ペースト
+noremap <C-i><C-i> p
+noremap <C-i>0 "0p
+noremap <C-i>1 "1p
+noremap <C-i>2 "2p
+noremap <C-i>3 "3p
+noremap <C-i>4 "4p
+noremap <C-i>5 "5p
+noremap <C-i>6 "6p
+noremap <C-i>7 "7p
+noremap <C-i>8 "8p
+noremap <C-i>9 "9p
+noremap <C-i>a "ap
+noremap <C-i>b "bp
+noremap <C-i>c "cp
+noremap <C-i>d "dp
+noremap <C-i>e "ep
+noremap <C-i>f "fp
+noremap <C-i>g "gp
+noremap <C-i>h "hp
+noremap <C-i>i "ip
+noremap <C-i>j "jp
+noremap <C-i>k "kp
+noremap <C-i>l "lp
+noremap <C-i>m "mp
+noremap <C-i>n "np
+noremap <C-i>o "op
+noremap <C-i>p "pp
+noremap <C-i>q "qp
+noremap <C-i>r "rp
+noremap <C-i>s "sp
+noremap <C-i>t "tp
+noremap <C-i>u "up
+noremap <C-i>v "vp
+noremap <C-i>w "wp
+noremap <C-i>x "xp
+noremap <C-i>y "yp
+noremap <C-i>z "zp
+noremap <C-i>- "-p
+noremap <C-i>* "*p
+noremap <C-i>+ "+p
+noremap <C-i>. ".p
+noremap <C-i>: ":p
+noremap <C-i>% "%p
+noremap <C-i># "#p
+noremap <C-I><C-I> P
+noremap <C-I>0 "0P
+noremap <C-I>1 "1P
+noremap <C-I>2 "2P
+noremap <C-I>3 "3P
+noremap <C-I>4 "4P
+noremap <C-I>5 "5P
+noremap <C-I>6 "6P
+noremap <C-I>7 "7P
+noremap <C-I>8 "8P
+noremap <C-I>9 "9P
+noremap <C-I>a "aP
+noremap <C-I>b "bP
+noremap <C-I>c "cP
+noremap <C-I>d "dP
+noremap <C-I>e "eP
+noremap <C-I>f "fP
+noremap <C-I>g "gP
+noremap <C-I>h "hP
+noremap <C-I>i "iP
+noremap <C-I>j "jP
+noremap <C-I>k "kP
+noremap <C-I>l "lP
+noremap <C-I>m "mP
+noremap <C-I>n "nP
+noremap <C-I>o "oP
+noremap <C-I>p "pP
+noremap <C-I>q "qP
+noremap <C-I>r "rP
+noremap <C-I>s "sP
+noremap <C-I>t "tP
+noremap <C-I>u "uP
+noremap <C-I>v "vP
+noremap <C-I>w "wP
+noremap <C-I>x "xP
+noremap <C-I>y "yP
+noremap <C-I>z "zP
+noremap <C-I>- "-P
+noremap <C-I>* "*P
+noremap <C-I>+ "+P
+noremap <C-I>. ".P
+noremap <C-I>: ":P
+noremap <C-I>% "%P
+noremap <C-I># "#P
+
 " Fernを呼び出す
 noremap <C-y> :Fern . -reveal=%<CR>
 
