@@ -181,6 +181,7 @@ xmap ic <Plug>(coc-classobj-i)
 omap ic <Plug>(coc-classobj-i)
 xmap ac <Plug>(coc-classobj-a)
 omap ac <Plug>(coc-classobj-a)
+nmap <C-.> <Plug>(coc-codeaction-cursor)
 
 " fzf
 
