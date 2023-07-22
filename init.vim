@@ -1,10 +1,6 @@
 :lua require('settings')
+:lua require('keymaps')
 
-" ハイライトを消す
-nnoremap <ESC><ESC> :nohlsearch<CR>
-
-" コマンドモードへ移行する
-noremap <C-j> :
 
 " 行頭・行末へ移動する
 noremap <C-h> ^
