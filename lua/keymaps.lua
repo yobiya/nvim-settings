@@ -5,6 +5,11 @@ vim.keymap.set('n', '<C-J>', ':') -- コマンドモードへ移行
 vim.keymap.set('n', '<C-H>', '^')   -- 行頭へ移動
 vim.keymap.set('n', '<C-L>', '$')   -- 行末へ移動
 
+---- f-next
+vim.keymap.set('n', 's', '<cmd>call FNext_n_f()<CR>')
+vim.keymap.set('v', 's', '<cmd>call FNext_v_f()<CR>')
+vim.keymap.set('o', 's', '<cmd>call FNext_o_f()<CR>')
+
 -- 検索
 vim.keymap.set('n', '<C-K>', '*')   -- 順方向へ検索
 
