@@ -1,5 +1,5 @@
 vim.keymap.set('n', '<ESC><ESC>', '<cmd>nohlsearch<CR>') -- ハイライトを消す
-vim.keymap.set('n', '<C-J>', ':') -- コマンドモードへ移行
+vim.keymap.set({ 'n', 'v' }, '<C-J>', ':') -- コマンドモードへ移行
 
 -- カーソルの移動
 vim.keymap.set('n', '<C-H>', '^')   -- 行頭へ移動
