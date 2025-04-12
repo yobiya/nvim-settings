@@ -1,5 +1,12 @@
 :lua require('settings')
 :lua require('keymaps')
+:lua require('plugins')
+
+" easy-motion
+let g:EasyMotion_leader_key = '<Space>'
+map <Leader> <Plug>(easy-motion-prefix)
+
+if !exists('g:vscode')
 
 " Fernを呼び出す
 noremap <C-y> :Fern . -reveal=%<CR>
@@ -8,13 +15,6 @@ noremap <C-y> :Fern . -reveal=%<CR>
 noremap gm :Marks<CR>
 noremap gf :Files<CR>
 noremap gb :Buffers<CR>
-
-" プラグインの読み込み
-:lua require('plugins')
-
-" easy-motion
-let g:EasyMotion_leader_key = '<Space>'
-map <Leader> <Plug>(easy-motion-prefix)
 
 " showmarks
 aug au-showmarks
@@ -77,3 +77,4 @@ au!
 " au CmdlineLeave * :call system(zenhanPath)
 aug end
 
+end
