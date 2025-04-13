@@ -105,3 +105,9 @@ vim.keymap.set('n', '<C-S-I>.', '".P')
 vim.keymap.set('n', '<C-S-I>:', '":P')
 vim.keymap.set('n', '<C-S-I>%', '"%P')
 vim.keymap.set('n', '<C-S-I>#', '"#P')
+
+if vim.g.vscode then
+    vim.keymap.set('n', 'gd', "<Cmd>lua require('vscode').action('editor.action.revealDefinition')<CR>")
+    vim.keymap.set('n', 'gf', "<Cmd>lua require('vscode').action('workbench.action.quickOpen')<CR>")
+    vim.keymap.set('n', '<C-.>', "<Cmd>lua require('vscode').action('editor.action.quickFix')<CR>")
+end
